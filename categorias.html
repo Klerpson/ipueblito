@@ -1,0 +1,29 @@
+---
+layout: default
+title: Blog de Natural One Life
+description: Mejora tu calidad de vida aprendiendo sobre dietas, ejercicios, medicina natural y más.
+---
+{% include header.html %}
+<section>
+  {% for category in site.categories %}
+  <div>
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <h3 class="negocios-h3"> {{ category_name }}</h3>
+    <div>
+      {% for post in site.categories[category_name] %}
+      <article>
+        <h4><span class="icon-{{ post.icon }}"></span> {{post.title}}</h4>
+        {{post.excerpt}}
+        <a href="{{ site.baseurl }}{{ post.url }}" class="icon-clone"> Ver más</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="carta-footer">
+  <h2>Natural One Life en Pitalito</h2>
+  <p>Encuentra más información sobre tu empresa de confianza en Pitalito Huila:</p>
+  {% include boton.html path="/ipueblito/contacto" texto="Sección de Contacto" %}
+</section>

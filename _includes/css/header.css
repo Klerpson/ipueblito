@@ -1,0 +1,41 @@
+/**** Header ****/
+
+header {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(auto-fit, 1fr);
+}
+
+.logo {
+  cursor: pointer;
+  text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+  font-family: var(--fuenteGraficas);
+  font-size: 3em;
+}
+
+header>ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+header>ul li {
+  cursor: pointer;
+  color: var(--verde1);
+  font-size: 2rem;
+  text-shadow: 7px 7px 12px rgba(0, 0, 0, 0.3);
+}
+
+header>ul li span {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  header {
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-box-align: start;
+    align-items: flex-start;
+  }
+
+}

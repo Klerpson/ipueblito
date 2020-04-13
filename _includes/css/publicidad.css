@@ -1,0 +1,63 @@
+ .publicidad {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   position: relative;
+ }
+
+
+ .publicidad picture img {
+   max-width: 100px;
+ }
+
+ .publicidad h3 {
+   color: var(--verdeClaro);
+   position: absolute;
+   top: 0;
+   margin: 0;
+   font-size: 3em;
+   z-index: -2;
+   text-transform: uppercase;
+   opacity: 0.4;
+ }
+
+ @media only screen and (min-width: 576px) {
+   .publicidad {
+     margin: 3em;
+   }
+
+   .publicidad picture img {
+    max-width: 150px;
+  }
+
+  .publicidad h3 {
+    font-size: 4em;
+  }
+ }
+
+ @media screen and (min-width: 768px) {
+   .publicidad h3 {
+     font-size: 4em;
+   }
+ }
+
+ @media only screen and (min-width: 992px) {
+   .publicidad {
+     padding: 0 3em;
+   }
+
+   .publicidad h3 {
+     font-size: 5em;
+   }
+ }
+
+ @media only screen and (min-width: 1400px) {
+  .publicidad h3 {
+    font-size: 8em;
+  }
+
+  .publicidad picture img {
+    max-width: 200px;
+  }
+}

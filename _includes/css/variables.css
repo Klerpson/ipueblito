@@ -1,0 +1,29 @@
+:root {
+
+  /*** COLORES ***/
+  /* rgb */
+  --verde1: #007440;
+  --verde2: #00b53e;
+  --verdeClaro: #39BF83;
+  --verdeOscuro: #004023;
+  --naranja: #ff8d00;
+  --naranja2: #CC7000;
+  --accion: #FF4B0D;
+  --azul1: #00ACFF;
+  --azul2: #0078B3;
+
+  --gris1: rgba(191, 191, 191, 1);
+  --gris2: rgba(140, 140, 140, 1);
+  --gris3: rgba(89, 89, 89, 1);
+  --gris4: rgba(64, 64, 64, 1);
+  --grisFuentes: rgba(48, 48, 48, 1);
+
+  /* hexadecimal */
+  --blanco: #FFFBFE;
+  --blancoRGBA: rgba(255, 251, 254, 0.8);
+
+  /*** FUENTES ***/
+  --fuenteTitulos: 'Gotu', sans-serif;
+  --fuenteTexto: 'Montserrat', sans-serif;
+  --fuenteGraficas: 'Mansalva', cursive;
+}

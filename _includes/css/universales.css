@@ -1,0 +1,78 @@
+/*** Formatos Universales ***/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--colorBlanco);
+  font-family: var(--fuenteTexto);
+  color: var(--grisFuentes);
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--fuenteTexto);
+  color: var(--accion);
+}
+
+li {
+  list-style: none;
+}
+
+strong {
+  color: var(--verde2);
+}
+
+span {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+section,
+main,
+header {
+  margin: 4em 1em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--fuenteTitulos);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+@media only screen and (min-width: 576px) {
+
+  section,
+  main,
+  header {
+    margin: 3em 2em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  body {
+    font-size: 1.2em;
+  }
+
+  section,
+  main,
+  header {
+    margin: 3em 5em;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+
+  section,
+  main,
+  header {
+    margin: 3em 7em;
+  }
+}

@@ -1,0 +1,13 @@
+{% for galeria in site.data.gratis limit:{{include.limite}} %}
+<article>
+  <picture class="foto">
+    <source type="image/webp" srcset="{{ site.baseurl }}/{{ galeria.webp }}">
+    <img src="{{ site.baseurl }}/{{ galeria.img }}" alt="{{ galeria.alt }}">
+  </picture>
+    <h3>
+      {{ galeria.name }} - ${{ galeria.precio }}
+    </h3>
+    <a href="https://api.whatsapp.com/send?phone={{ galeria.link }}&text=%F0%9F%98%84%20Hola!%20Me%20encant%C3%B3%20el%20producto%20que%20ofreces%20en%20I-Pueblito%20%F0%9F%98%8B%F0%9F%A4%A9.%20%C2%BFTienen%20domicilios?" class="icon-chevron-circle-right"> {{ galeria.link }}</a>
+</article>
+{% endfor %}
+

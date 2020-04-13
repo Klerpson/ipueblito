@@ -1,0 +1,69 @@
+- name: Empanada GurCoff
+  img: img/gratis/empanada.png
+  webp: img/gratis/empanada.webp
+  alt: Empanada de GurCoff
+  link: 3115245225
+  precio: 1000
+
+- name: Café GurCoff
+  img: img/gratis/cafe.png
+  webp: img/gratis/cafe.webp
+  alt: Café de GurCoff
+  link: 3115245225
+  precio: 2000
+
+- name: Copa Ácida GurCoff
+  img: img/gratis/acida.png
+  webp: img/gratis/acida.webp
+  alt: Copa Ácida de GurCoff
+  link: 3115245225
+  precio: 9000
+
+- name: Juego Agilízate
+  img: img/gratis/agilizate.png
+  webp: img/gratis/agilizate.webp
+  alt: Juego de meza Agilízate
+  link: 3115245225
+  precio: 25000
+
+- name: Empanada GurCoff
+  img: img/gratis/empanada.png
+  webp: img/gratis/empanada.webp
+  alt: Empanada de GurCoff
+  link: 3115245225
+  precio: 1000
+
+- name: Café GurCoff
+  img: img/gratis/cafe.png
+  webp: img/gratis/cafe.webp
+  alt: Café de GurCoff
+  link: 3115245225
+  precio: 2000
+
+- name: Empanada GurCoff
+  img: img/gratis/empanada.png
+  webp: img/gratis/empanada.webp
+  alt: Empanada de GurCoff
+  link: 3115245225
+  precio: 1000
+
+- name: Café GurCoff
+  img: img/gratis/cafe.png
+  webp: img/gratis/cafe.webp
+  alt: Café de GurCoff
+  link: 3115245225
+  precio: 2000
+
+- name: Empanada GurCoff
+  img: img/gratis/empanada.png
+  webp: img/gratis/empanada.webp
+  alt: Empanada de GurCoff
+  link: 3115245225
+  precio: 1000
+
+- name: Café GurCoff
+  img: img/gratis/cafe.png
+  webp: img/gratis/cafe.webp
+  alt: Café de GurCoff
+  link: 3115245225
+  precio: 2000

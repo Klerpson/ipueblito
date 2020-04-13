@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% include header.html %}
+<section>
+  <h1>{{ page.title }}</h1>
+
+  <picture class="foto">
+    <source media="(min-width: 576px)" type="image/webp" srcset="{{ site.baseurl }}/{{ page.webpng2 }}">
+    <source media="(min-width: 576px)" srcset="{{ site.baseurl }}/{{ page.png2 }}">
+    <source media="(min-width: 400px)" type="image/webp" srcset="{{ site.baseurl }}/{{ page.webpng1 }}">
+    <source media="(min-width: 400px)" srcset="{{ site.baseurl }}/{{ page.png1 }}">
+    <source type="image/webp" srcset="{{ site.baseurl }}/{{ page.srcwebp }}">
+    <img src="{{ site.baseurl }}/{{ page.src }}" alt="{{ page.alt }}">
+  </picture>
+
+</section>
+
+<main class="articulo">
+  {{ content }}
+</main>
+
+<section>
+  {% include share.html %}
+</section>
+<section >
+  <h2>Más consejos de salud que te pueden gustar:</h2>
+  <div class="galeria">
+    {% include entradas.html limite="3" %}
+  </div>
+</section>
