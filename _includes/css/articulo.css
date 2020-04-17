@@ -3,3 +3,11 @@
 .articulo img {
   max-width: 100%;
 }
+
+.referenciados,
+.negocios {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin: 2em 0 5em;
+}

@@ -18,7 +18,9 @@
 
 {% include css/publicidad.css %}
 
-{% include css/nosotros.css %}
+{% include css/footer.css %}
+
+{% include css/contacto.css %}
 
 {% include css/articulo.css %}
 

@@ -3,7 +3,6 @@ nav {
   bottom: 0;
   left: 0;
   background-color: var(--verde2);
-  line-height: 0.5em;
   z-index: 10;
 }
 

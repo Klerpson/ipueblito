@@ -1,0 +1,20 @@
+.contacto ul li {
+  margin-bottom: 1.5em;
+}
+
+.contacto-iconos {
+  font-size: 3em;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  color: var(--verdeClaro);
+}
+
+.contacto-redes ul li{
+  margin-bottom: 1.5em;
+}
+@media only screen and (min-width: 992px) {
+  .contacto-iconos {
+    font-size: 5em;
+  }
+}

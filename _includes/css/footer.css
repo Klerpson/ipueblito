@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: var(--naranja);
+  padding: 1em;
+  margin-bottom: 3em;
+}
+
+.footer h4, .footer p {
+  color: var(--blanco);
+}

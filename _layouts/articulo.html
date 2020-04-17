@@ -6,11 +6,9 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <picture class="foto">
-    <source media="(min-width: 576px)" type="image/webp" srcset="{{ site.baseurl }}/{{ page.webpng2 }}">
-    <source media="(min-width: 576px)" srcset="{{ site.baseurl }}/{{ page.png2 }}">
-    <source media="(min-width: 400px)" type="image/webp" srcset="{{ site.baseurl }}/{{ page.webpng1 }}">
-    <source media="(min-width: 400px)" srcset="{{ site.baseurl }}/{{ page.png1 }}">
-    <source type="image/webp" srcset="{{ site.baseurl }}/{{ page.srcwebp }}">
+    <source media="(min-width: 450px)" type="image/webp" srcset="{{ site.baseurl }}/{{ page.webp1 }}">
+    <source media="(min-width: 450px)" srcset="{{ site.baseurl }}/{{ page.src1 }}">
+    <source type="image/webp" srcset="{{ site.baseurl }}/{{ page.webp }}">
     <img src="{{ site.baseurl }}/{{ page.src }}" alt="{{ page.alt }}">
   </picture>
 
@@ -20,12 +18,28 @@ layout: default
   {{ content }}
 </main>
 
-<section>
   {% include share.html %}
-</section>
-<section >
-  <h2>Más consejos de salud que te pueden gustar:</h2>
-  <div class="galeria">
-    {% include entradas.html limite="3" %}
+
+  <section >
+  <h2>Más opciones que te recomendamos:</h2>
+  <div class="referenciados">
+    {% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    {% for post in site.categories[category_name] limit="5" %}
+    {% if post.pago == 'si' %}
+      <article>
+        <picture class="foto">
+            <source type="image/webp" srcset="{{ site.baseurl }}/{{ post.webp }}">
+            <img src="{{ site.baseurl }}/{{ page.src }}" alt="{{ post.alt }}">
+        </picture>
+          <h3>
+            {{ post.excerpt }}
+          </h3>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="icon-chevron-circle-right"> Ver más</a>
+      </article>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+
   </div>
 </section>

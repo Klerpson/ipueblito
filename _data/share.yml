@@ -1,14 +1,9 @@
 - class: f
-  href: site.facebook
+  href: facebook
   iclass: icon-facebook
   span: facebook
 
-- class: g
-  href: site.minegocio
-  iclass: icon-chrome
-  span: Google
-
 - class: i
-  href: site.instagram
+  href: instagram
   iclass: icon-instagram
   span: Instagram

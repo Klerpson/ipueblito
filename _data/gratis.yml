@@ -1,69 +1,23 @@
-- name: Empanada GurCoff
+- name: Empanadas Avellaneda
   img: img/gratis/empanada.png
   webp: img/gratis/empanada.webp
-  alt: Empanada de GurCoff
-  link: 3115245225
-  precio: 1000
-
-- name: Café GurCoff
-  img: img/gratis/cafe.png
-  webp: img/gratis/cafe.webp
-  alt: Café de GurCoff
-  link: 3115245225
-  precio: 2000
+  alt: Empanada de Guiso San Agustín
+  precio: 4000 por 8 unidades
 
 - name: Copa Ácida GurCoff
   img: img/gratis/acida.png
   webp: img/gratis/acida.webp
   alt: Copa Ácida de GurCoff
-  link: 3115245225
   precio: 9000
 
 - name: Juego Agilízate
   img: img/gratis/agilizate.png
   webp: img/gratis/agilizate.webp
   alt: Juego de meza Agilízate
-  link: 3115245225
   precio: 25000
 
-- name: Empanada GurCoff
+- name: Cuida tus pies y manos
   img: img/gratis/empanada.png
   webp: img/gratis/empanada.webp
-  alt: Empanada de GurCoff
-  link: 3115245225
-  precio: 1000
-
-- name: Café GurCoff
-  img: img/gratis/cafe.png
-  webp: img/gratis/cafe.webp
-  alt: Café de GurCoff
-  link: 3115245225
-  precio: 2000
-
-- name: Empanada GurCoff
-  img: img/gratis/empanada.png
-  webp: img/gratis/empanada.webp
-  alt: Empanada de GurCoff
-  link: 3115245225
-  precio: 1000
-
-- name: Café GurCoff
-  img: img/gratis/cafe.png
-  webp: img/gratis/cafe.webp
-  alt: Café de GurCoff
-  link: 3115245225
-  precio: 2000
-
-- name: Empanada GurCoff
-  img: img/gratis/empanada.png
-  webp: img/gratis/empanada.webp
-  alt: Empanada de GurCoff
-  link: 3115245225
-  precio: 1000
-
-- name: Café GurCoff
-  img: img/gratis/cafe.png
-  webp: img/gratis/cafe.webp
-  alt: Café de GurCoff
-  link: 3115245225
-  precio: 2000
+  alt: Manual de manicure y pedicure
+  precio: 12000

@@ -5,6 +5,11 @@
   <p>Preparamos este sitio para todos nuestros vecinos locales y visitantes. Encuentra la información que más podemos ofrecer: <strong>comercio, turismo, servicios, etc.</strong></p>
 
   <h2>Productos destacados de San Agustín:</h2>
+
+  <section>
+    {% include boton.html path="/ipueblito/search" texto="Busca lo que necesitas" %}
+    </section>
+    
   <div class="galeria">
 
     {% include entradas.html limite="7" %}
@@ -13,4 +18,5 @@
 
   {% include boton.html path="categorias/" texto="Mira todas las opciones" %}
 
+  
 </section>
