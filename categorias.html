@@ -8,24 +8,39 @@ description: Categorías de negocios y productos de San Agustín Huila
 
 <section>
   {% include boton.html path="/ipueblito/search" texto="Busca lo que necesitas" %}
-  {% for category in site.categories %}
-  <div>
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <h3 class="negocios-h3"> {{ category_name }}</h3>
+  <div class="negocios">
+    {% for category in site.categories %}
     <div>
-      {% for post in site.categories[category_name] %}
-      <article>
-        <h4><span class="icon-{{ post.icon }}"></span> {{post.title}}</h4>
-        {{post.excerpt}}
-        <a href="{{ site.baseurl }}{{ post.url }}" class="icon-chevron-circle-right"> Ver más</a>
-      </article>
-      <h5>Calificación de {{post.puntos}}</h5>
-      {% endfor %}
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      <h3 class="negocios-h3"> {{ category_name }}</h3>
+      <div>
+        {% for post in site.categories[category_name] %}
+        <article>
+          <picture class="foto">
+            <source type="image/webp" srcset="{{ site.baseurl }}/{{ post.webp }}">
+            <img src="{{ site.baseurl }}/{{ post.src }}" class="wow flipInY" data-wow-delay="0.7s"
+              alt="{{ galeria.alt }}">
+          </picture>
+          <h4><span class="icon-{{ post.icon }}"></span> {{post.title}}</h4>
+          {{post.excerpt}}
+          <a href="{{ site.baseurl }}{{ post.url }}" class="icon-chevron-circle-right"> Ver más</a>
+        </article>
+        {% if post.pago == 'si' %}
+        <h5>Calificación de {{post.puntos}}</h5>
+        {% endif %}
+        {% endfor %}
+      </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </section>
 
+<section>
+  <h2>Productos de San Agustín</h2>
+  <div class="galeria">
+  {% include entradas.html %}
+</div>
+</section>
 <section class="carta-footer">
   <h2>en mI-Pueblito queremos apoyarte</h2>
   <p>Encuentra más información sobre este proyecto. Estamos felices de apoyar a San Agustín, Huila:</p>

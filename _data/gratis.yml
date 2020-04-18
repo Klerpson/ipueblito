@@ -4,6 +4,12 @@
   alt: Empanada de Guiso San Agustín
   precio: 4000 por 8 unidades
 
+- name: Cuida tus pies y manos en casa
+  img: img/gratis/coverlibro.png
+  webp: img/gratis/coverlibro.webp
+  alt: Manual de manicure y pedicure sin riesgos
+  precio: 12000
+  
 - name: Copa Ácida GurCoff
   img: img/gratis/acida.png
   webp: img/gratis/acida.webp
@@ -15,9 +21,3 @@
   webp: img/gratis/agilizate.webp
   alt: Juego de meza Agilízate
   precio: 25000
-
-- name: Cuida tus pies y manos
-  img: img/gratis/empanada.png
-  webp: img/gratis/empanada.webp
-  alt: Manual de manicure y pedicure
-  precio: 12000

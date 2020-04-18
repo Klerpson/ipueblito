@@ -1,29 +1,29 @@
-<section >
+<section>
   <h2>Negocios recomendados de esta semana.</h2>
   <div class="negocios">
-  {% for category in site.categories %}
-  <div >
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    {% for post in site.categories[category_name] %}
-    {% if post.pago == 'si' %}
-    <h3 class="negocios-h3"> {{ category_name }}</h3>
+    {% for category in site.categories %}
     <div>
-<article>
-  <picture class="foto">
-    <source type="image/webp" srcset="{{ site.baseurl }}/{{ post.webp }}">
-    <img src="{{ site.baseurl }}/{{ post.src }}" alt="{{ post.alt }}">
-  </picture>
-    <h3>
-      {{ post.name }}
-    </h3>
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      {% for post in site.categories[category_name] %}
+      {% if post.pago == 'si' %}
+      <h3 class="negocios-h3"> {{ category_name }}</h3>
+      <div>
+        <article>
+          <picture class="foto">
+            <source type="image/webp" srcset="{{ site.baseurl }}/{{ post.webp }}">
+            <img src="{{ site.baseurl }}/{{ post.src }}" class="wow flipInY" data-wow-delay="0.7s" alt="{{ post.alt }}">
+          </picture>
+          <h3>
+            {{ post.name }}
+          </h3>
 
-    <p>{{ post.excerpt }}</p>
-    <a href="{{ site.baseurl }}{{ post.url }}" class="icon-chevron-circle-right"> Ver más</a>
-</article>
-{% endif %}
-      {% endfor %}
+          <p>{{ post.excerpt }}</p>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="icon-chevron-circle-right"> Ver más</a>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
 </section>

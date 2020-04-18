@@ -17,7 +17,6 @@ alt: Logo de MyS Tecnología
 pago: si
 puntos: 4.9
 icon: gamepad
-url: https://gurcoff.com
 ---
 Una empresa de confianza y cumplimiento. Contratistas de Ecopetrol Putumayo.
 

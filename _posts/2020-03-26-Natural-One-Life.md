@@ -19,16 +19,22 @@ El Coronavirus requiere cuidados personales. Pero no debes exagerar el temor
 <!-- excerpt -->
 ***
 
-Llevamos más de 4 años ayudando a nuestros vecinos a mejorar su calidad de vida. 
+¿Quien no ha recibido la visita de las personas que nos ofrecen productos para la salud? ¿Y cuántas veces no resultó ser un estafador más? Hasta hemos encontrado personas fabricando supuestas medicinas en su propia casa.
 
-Kaperij lanterne rouge musette rund um koln bruges thor smash, geraardsbergen riis petacchi molteni pedaling squares. Virenque vande velde, valkenberg gutter pantani parcours gaul domestique, tilford campagnolo around madone. Bruyneel criterium ritte, gorgeous george the trousselier feed zone bruges nokere koerse, parcours gilbert garin? Anquetil valkenberg bettini cat among the pigeons.
+## Nacimos para cambiar esto.
+
+Al igual que nuestros vecinos, nosotros también disfrutamos de cuidar la salud. Y queríamos hacerlo sin arriesgarla. Y, por supuesto, **sin ser estafados.**
+
+Así encontramos el laboratorio científico proveedor de Natural One Life. Adicionalmente, nos enseñaron personalmente sus instalaciones, y su trabajo con células madre para recuperar poco a poco la salud. Consecuentemente, decidimos probarlo. Nos encantó y todavía lo seguimos haciendo.
 
 ![foto1][foto1]
 
-Campagnolo the hors delai de wolf as the toto turns venga venga venga, sanchez nys. Pantani hell of the north oude kwaremont nitto koppenberg, tiegemberg van steenbergen lombardie flamme rouge lemond e3 prijs vlaanderen.
+Y no solo hizo, también tuvimos la oportunidad de seguir distribuyendo a los consumidores los tratamientos. **Así fue como nos hicimos con Natural One Life**. Es nuestra empresa familiar. Pensada para enseñar a nuestros vecinos a **mejorar su calida de vida**.
 
-Planckaert berg ter stene freire gorgeous george in rouleur derby, vaughters fabianese omloop het volk rouleur play rouleur derby. Bottechia petacchi, milan-san remo van summeren off the back cutters the cassette.
+Con todos los registros INVIMA en regla, con personal que recibimos capacitación constante, con asociaciones junto a profesionales de la salud, entre otros. Hacemos todo lo necesario para que cuides tu salud con confianza y buenos resultados.
 
-Nyvelocity pyrenees vande velde merckx. La fleche wallonne fixie pau, with muur hors categorie boonen aerts operacion puerto, topsport vlaanderen pereiro randonneur. This greek text is produced by rouleur derby, almost certainly the best fantasy cycling game in the world snob trousselier col du galibier, flanders venga venga venga suitcase of courage cutters kolobnev molenberg.
+Si deseas solicitar más información, escríbenos a nuetros WhatsApp
+
+{% include boton.html path="https://wa.me/573115245225" texto="Escríbenos por WhatsApp" %}
 
 [foto1]: {{ site.baseurl }}/img/negocios/naturalonelife/naturalonelife.png "Logo de Natural One Life"

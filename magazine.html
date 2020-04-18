@@ -1,0 +1,28 @@
+---
+layout: default
+title: Magazine | IPueblito
+description: Entérate de las novedades y buenas noticias de San Agustín. Además, de lo último en este proyecto de nuestra comunidad.
+---
+{% include header.html %}
+<section>
+  <h1>Lo último de San Agustín Huila</h1>
+  <p>En esta sección podrás estar al día con las cosas que suceden en nuestro pueblito querido.</p>
+  <hr>
+{% for post in site.posts %}
+{% if post.noticia == 'si' %}
+  <article>
+    <picture class="foto">
+        <source type="image/webp" srcset="{{ site.baseurl }}/{{ post.webp }}">
+        <img src="{{ site.baseurl }}/{{ page.src }}" class="wow flipInY"  data-wow-delay="0.7s" alt="{{ post.alt }}">
+    </picture>
+      <h3>
+        {{ post.title }}
+      </h3>
+      {{ post.excerpt }}
+      <a href="{{ site.baseurl }}{{ post.url }}" class="icon-chevron-circle-right"> Ver más</a>
+  </article>
+{% endif %}
+{% endfor %}
+</section>
+
+{% include footer.html %}

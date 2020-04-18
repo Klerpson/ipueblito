@@ -2,7 +2,7 @@
 <article>
   <picture class="foto">
     <source type="image/webp" srcset="{{ site.baseurl }}/{{ galeria.webp }}">
-    <img src="{{ site.baseurl }}/{{ galeria.src }}" alt="{{ galeria.alt }}">
+    <img src="{{ site.baseurl }}/{{ galeria.src }}" class="wow flipInY"  data-wow-delay="0.7s" alt="{{ galeria.alt }}">
   </picture>
     <h3>
       {{ galeria.name }} - ${{ galeria.precio }}

@@ -2,6 +2,15 @@
   
     {
 
+      "title"    : "Comienza a funcionar IPueblito",
+      "url"      : "/ipueblito/magazine/Comienza-IPueblito/",
+      "category" : "Magazine",
+      "tags"     : "Magazine, Noticia, IPueblito"
+
+    } ,
+  
+    {
+
       "title"    : "MyS Tecnología",
       "url"      : "/ipueblito/tecnolog%C3%ADa/MyS-Tecnologia/",
       "category" : "Tecnología",
